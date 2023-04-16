@@ -7,7 +7,7 @@ def read_input():
         filename ='06'
         base= './tests/'
         file=base+filename 
-        if "a" not in name:
+        if "a" not in filename:
             try:
                 with open(file) as f:
                     pattern= f.readline().rstrip()
