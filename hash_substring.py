@@ -4,9 +4,9 @@ def read_input():
         pattern= input().rstrip()
         text=input().rstrip()
     elif "F" in into:
-        name ='06'
-        path= './tests/'
-        file=path+name 
+        filename ='06'
+        base= './tests/'
+        file=base+filename 
         if "a" not in name:
             try:
                 with open(file) as f:
