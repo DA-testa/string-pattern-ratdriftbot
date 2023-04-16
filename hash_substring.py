@@ -4,8 +4,8 @@ def read_input():
         pattern= input().rstrip()
         text=input().rstrip()
     elif "F" in into:
-        filename  ='06'
-        base= './tests/'
+        name ='06'
+        path= './tests/'
         file=path+name 
         if "a" not in name:
             try:
@@ -17,7 +17,7 @@ def read_input():
                 pattern, text="", ""
     
     return pattern, text
-
+                        
 def print_occurrences(output):
     
     print(' '.join(map(str, output)))
